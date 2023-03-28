@@ -1,4 +1,0 @@
-aqui está uma aspas dupla = "
-	ela tem que ser trocada por um sinal de barra invertida
-		o texto precisa manter este espaçacemento e quebra de linhas
-			cada linha necessita estar encapsulada por um sinal de parênteses na frente e um arroba atrás

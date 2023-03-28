@@ -1,4 +1,0 @@
-client.println("aqui está uma aspas dupla = \"");
-client.println("	ela tem que ser trocada por um sinal de barra invertida");
-client.println("		o texto precisa manter este espaçacemento e quebra de linhas");
-client.println("			cada linha necessita estar encapsulada por um sinal de parênteses na frente e um arroba atrás");

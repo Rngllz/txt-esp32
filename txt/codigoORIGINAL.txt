@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+
+            :root{
+                --cor1: #ede7d9;
+                --cor2: #a49694;
+                --cor3: #a49694e3;
+                --cor4: #796f6d;
+                --cor5 : rgb(145, 6, 6);
+                --cor6: rgb(2, 87, 2);
+            }
+
+
+            body{
+                background-color: var(--cor1);
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            #container0{
+                width: max-content;
+                padding: 15px;
+                margin: auto;
+                margin-top: 10em;
+                transition: 1s;
+            }
+            #container1{
+                background-color: var(--cor2);
+                width: 35vw;
+                height: 15vh;
+                border-radius: 10px;
+                margin: auto;
+                transition: 1s;
+                box-shadow: 0px .8vh 0px 0px var(--cor4);
+            }
+            #container2{
+                height: 200px;
+                width: 35vw;
+                margin: auto;
+                margin-top: 1vw;
+                width: max-content;
+                height: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 0fr 0fr;
+            }
+            #container3{
+                background-color: var(--cor2);
+                width: 35vw;
+                height: 6vh;
+                margin-top: 1vw;
+                transition: 1s;
+                border-radius: 10px;
+                box-shadow: 0px .8vh 0px 0px var(--cor5);
+            }
+
+
+            #C{
+                width: 17vw;
+                height: 15vh;
+                border-radius: 10px;
+                background-color:  var(--cor2);
+                transition: 1s;
+                margin-right: .5vw;
+                box-shadow: 0px .8vh 0px 0px var(--cor4);
+            }
+            #F{
+                width: 17vw;
+                border-radius: 10px;
+                height: 15vh;
+                background-color:  var(--cor2);
+                transition: 1s;
+                margin-left: .5vw;
+                box-shadow: 0px .8vh 0px 0px var(--cor4);
+            }
+
+
+            #container1 > p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 15vh;
+                font-size: 2.5vh;
+            }
+
+            #C:hover, #F:hover, #container1:hover, #container3:hover{
+                transition: .3s;
+                background-color: var(--cor3);
+            }
+
+            .medida{
+                margin-left: 1vw;
+                margin-top: 1vw;
+                font-size: 2vh;
+            }
+            .grau{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                font-size: 3.5vh;
+                padding-top: 3vh;
+            }
+
+            #container3 > p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 6vh;
+                font-size: 2.5vh;
+            }
+
+            button{
+                background-color: var(--cor2);
+                width: 25vw;
+                height: 6vh;
+                margin: auto;
+                margin-top: 1.5vw;
+                transition: 1s;
+                align-items: center;
+                height: 5vh;
+                width: 35vw;
+                box-shadow: 0px .8vh 0px 0px var(--cor4);
+                border-radius: 10px;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div id="container0">
+                <section id="container1">
+                    <p>Temperatura</p>
+                </section> 
+                <section id="container2">
+                    <div id="C">
+                        <p class="medida">°C</p>
+                        <p class="grau">002</p>
+                    </div>
+                    <div id="F">
+                        <p class="medida">°F</p>
+                        <P class="grau">002</P>
+                    </div>
+                </section>
+                <section id="container3">
+                        <p>Status</p>
+                </section>
+                <div>
+                  <button>BVirtual</button>
+                </div>
+
+            </div>
+        </main>
+    </body>
+</html>
