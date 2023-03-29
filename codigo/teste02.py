@@ -1,10 +1,10 @@
 
 
-with open("txt/teste.txt", "r", encoding="utf-8") as arquivo:
+with open("txt/codigoORIGINAL.txt", "r", encoding="utf-8") as arquivo:
     linha = arquivo.readlines()
     # Pega todas as linhas e coloca em uma lista
 
-with open("txt/aalala.txt", "w", encoding="utf-8") as arquivo:
+with open("txt/codigoFORMATADO.txt", "w", encoding="utf-8") as arquivo:
    
     for num in range(len(linha)):
 
